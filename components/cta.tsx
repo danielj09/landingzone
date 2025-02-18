@@ -32,7 +32,7 @@ export default function Cta() {
                   href="#0"
                 >
                   <span className="relative inline-flex items-center">
-                    Start Building
+                    Explore What We Offer
                     <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>

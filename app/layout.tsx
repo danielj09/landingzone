@@ -5,11 +5,13 @@ import localFont from "next/font/local";
 
 import Header from "@/components/ui/header";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
+// const inter = Inter({
+//   subsets: ["latin"],
+//   variable: "--font-inter",
+//   display: "swap",
+// });
+
+const inter = Inter({ subsets: ['latin'], preload: false, variable: "--font-inter", });
 
 const nacelle = localFont({
   src: [
